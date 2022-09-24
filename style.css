@@ -7,9 +7,10 @@ body{
 h1{
     margin-top: 20px;
     color: white;
+    text-align: center;
 }
-p{
-    color: yellow;
+img{
+    width: calc(100%);
 }
 
 @media screen and (orientation: portrait) {
@@ -19,6 +20,9 @@ p{
     .mostrarContenido{
         display: none;
     }
+    h1{
+        background-color: transparent;
+    }
 }
 
 @media screen and (orientation: landscape) {
@@ -27,5 +31,8 @@ p{
     }
     .mostrarContenido{
         display: block;
+    }
+    h1 {
+        background-color: coral;
     }
 }
