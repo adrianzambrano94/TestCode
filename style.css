@@ -1,0 +1,15 @@
+@media all and (orientation: landscape) {
+    body{
+        background-color: black;
+        max-width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1{
+        margin-top: 20px;
+        color: white;
+    }
+    p{
+        color: yellow;
+    }
+}
